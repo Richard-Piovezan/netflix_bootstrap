@@ -1,0 +1,40 @@
+
+:root {
+    --black: #000;
+    --red: #c51330;
+    --greydark: #3b3b3b;
+    --white: #F6F6F6;
+
+}
+
+body {
+    background-color: var(--greydark);
+    color: #F6F6F6;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+header img {
+    max-height: 120px;
+}
+
+.row h5 {
+    color: var(--white);
+}
+
+.row p {
+    color: var(--white);
+}
+
+.btn {
+    background-color: var(--red);
+    font-weight: 600;
+}
